@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 75vw;
+    height: 75vh;
+    margin:auto;
+    border-radius: 1em;
+    background: #fcfcfc;
+    padding: 1em;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+main > section {
+    width: 50%;
+    height: 100%;
+}

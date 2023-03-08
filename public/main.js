@@ -1,0 +1,1 @@
+const EjsToObj = (x) => JSON.parse(x.replaceAll(`&#34;`, '"'));
